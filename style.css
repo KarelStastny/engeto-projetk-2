@@ -73,49 +73,22 @@ header{
     transition: 0.5s;
 }
 
-@media (max-width:900px){
-    /* Navigace */
-    .nav-menu{
-        position: fixed;
-        gap: 0;
-        flex-direction: column;
-        top: 80px;
-        background-color: #141414d1;
-        width: 100%;
-        text-align: center;
-        transition: left 0.7s;
-        left: -100%;
-    }
-
-    /* Hamburger toggle */
-
-    .hamburger{
-        display: block;
-    }
-
-    .hamburger.active .bar:nth-child(2){
-        opacity: 0;
-    }
-    .hamburger.active .bar:nth-child(1){
-        transform: translateY(8px) rotate(45deg);
-    }
-    .hamburger.active .bar:nth-child(3){
-        transform: translateY(-8px) rotate(-45deg);
-    }
-
-    .nav-menu.active{
-        left: 0;
-    }
-
-    .nav-menu li{
-        margin: 12px 0;
-    }
-
-
-
-
+.hamburger-icon {
+    display: block;
+    width: 30px;
 }
 
+.cross-icon {
+    width: 30px;
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+.active{
+    display: block;
+}
 
 
 

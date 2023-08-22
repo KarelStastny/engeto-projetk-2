@@ -1,0 +1,32 @@
+
+@media (max-width:900px){
+    /* Navigace */
+    .nav-menu{
+        position: fixed;
+        gap: 0;
+        flex-direction: column;
+        top: 80px;
+        background-color: #141414d1;
+        width: 100%;
+        text-align: center;
+        transition: left 0.7s;
+        left: -100%;
+        transition: left 0.7s ease;
+    }
+
+    .nav-menu li {
+        padding: 5px;
+    }
+
+    .hamburger{
+        display: block;
+        transition: left 0.7s ease;
+    }
+
+    .nav-menu-active {
+        left: 0;
+    }
+
+
+
+}
