@@ -21,10 +21,17 @@
     .hamburger{
         display: block;
         transition: left 0.7s ease;
+        cursor: pointer;
     }
 
     .nav-menu-active {
         left: 0;
+    }
+
+    .hamburger-icon {
+        display: block;
+        width: 30px;
+        cursor: pointer;
     }
 
 

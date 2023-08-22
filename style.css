@@ -64,32 +64,23 @@ header{
     cursor: pointer;
 }
 
-.bar{
-    display: block;
-    background-color: #e5e5e5;
-    width: 25px;
-    height: 3px;
-    margin: 5px auto;
-    transition: 0.5s;
+
+.icon{
+    width: 30px;
+    display: none;
+    cursor: pointer;
 }
 
-.hamburger-icon {
-    display: block;
-    width: 30px;
-}
 
-.cross-icon {
-    width: 30px;
+
+
+.icon.hidden {
     display: none;
 }
 
-.hidden {
-    display: none;
-}
-.active{
+.icon.active {
     display: block;
 }
-
 
 
 
